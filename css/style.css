@@ -98,6 +98,7 @@ p{
     color:#f7c08a;
     overflow: auto;
 }
+/* showcase */
 
 #showcase{
     background: url('../img/showcase.jpg') no-repeat center center/cover;
@@ -121,7 +122,7 @@ p{
     line-height: 1.7em;
 }
 
-/* home-infor */
+/* home-info */
 
 #home-info{
     height: 400px;
@@ -145,4 +146,28 @@ p{
     background-color: #333;
     color:#fff;
 
+}
+
+/* features */
+
+.box{
+    float:left;
+    width:33.3%;
+    text-align: center;
+    padding: 50px;
+}
+
+.meal-bg{
+    background-color: #f7c08a;
+}
+.clr{
+    clear: both;
+}
+
+/* footer */
+.main-footer{
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
 }
