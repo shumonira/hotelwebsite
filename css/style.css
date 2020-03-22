@@ -60,6 +60,11 @@ p{
     background: #fff;
     color: #333;
 }
+
+.bg-light{
+    background: #f4f4f4;
+    color:#444;
+}
 /* navbar */
 
 #navbar{
@@ -165,10 +170,22 @@ p{
 }
 
 /* About page */
-#about-info{
-    background: #444;
+#about-info .info-right{
+  float:right;
+  width: 50%;
+  min-height: 100%;
 }
 
+#about-info .info-right img{
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+#about-info .ino-left{
+    float:left;
+    width: 50%;
+    min-height: 100%;
+}
 /* footer */
 .main-footer{
     text-align: center;
