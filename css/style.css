@@ -200,21 +200,23 @@ p{
 #testimonials{
     background: url(/img/test-bg.jpg) no-repeat center center/cover;
     height: 600px ;
-}
-.testimonial{
-    width: 100%;
-    height:100px;
+    padding-top:40px;
 }
 
-.testimonial img{
+#testimonials .testimonial{
+    padding:20px;
+    margin-bottom: 40px;
+}
+
+#testimonials .testimonial img{
     border-radius: 50%;
     width:8%;
-    float: left;
+    float:left;
+    margin-right:20px;
+    
 }
 
-.testimonial p{
-    float:right;
-}
+
 /* footer */
 .main-footer{
     text-align: center;
