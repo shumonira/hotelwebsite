@@ -206,6 +206,7 @@ p{
 #testimonials .testimonial{
     padding:20px;
     margin-bottom: 40px;
+    border-radius: 10px;
 }
 
 #testimonials .testimonial img{
