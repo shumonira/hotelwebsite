@@ -30,6 +30,7 @@ p{
     margin:auto;
     max-width: 1100px;
     overflow: auto;
+    padding: 0 20px;
 }
 
 .text-primary{
